@@ -1,0 +1,11 @@
+function Button() {
+  function handleClick() {
+    alert('Button was clicked!');
+  }
+
+  return (
+    <button onClick={handleClick}>
+      Click me
+    </button>
+  );
+}
